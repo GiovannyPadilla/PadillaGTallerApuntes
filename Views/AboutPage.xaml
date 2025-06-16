@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notes.Views.AboutPage"
+             Title="Acerca de mí">
+
+    <VerticalStackLayout Spacing="20" Padding="20" HorizontalOptions="Center">
+        <Image Source="software.png"
+               SemanticProperties.Description="Ícono representativo"
+               HeightRequest="100"
+               WidthRequest="100"
+               HorizontalOptions="Center" />
+
+        <Label Text="Giovanny Padilla"
+               FontSize="24"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+
+        <Label Text="Soy un estudiante apasionado por el desarrollo de software y me encanta crear aplicaciones móviles prácticas y funcionales usando tecnologías modernas como .NET MAUI."
+               FontSize="16"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center" />
+    </VerticalStackLayout>
+</ContentPage>
